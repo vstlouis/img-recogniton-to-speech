@@ -9,7 +9,7 @@ export function createStore() {
     hasPermission: null,
     loadingVisible: false,
     helpDisplayed: false,
-    languageModalDisplayed: true,
+    languageModalDisplayed: false,
     get snackbarVisible() {
       return this.snackbarMessage.length > 0;
     },
